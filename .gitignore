@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+dashboard/node_modules/
+
+# Environment (CRITICAL - API keys)
+.env
+.env.*
+!.env.example
+
+# Generated output
+output/
+
+# Build artifacts
+dist/
+
+# User data
+engine/data/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

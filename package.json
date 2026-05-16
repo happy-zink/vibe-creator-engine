@@ -1,0 +1,23 @@
+{
+  "name": "vibe-creator-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node engine/server.js",
+    "engine": "node engine/index.js",
+    "dashboard": "cd dashboard && npm run dev",
+    "dev": "node engine/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "openai": "^6.37.0"
+  }
+}

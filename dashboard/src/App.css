@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+input::placeholder {
+  color: #6b5e54;
+  opacity: 1;
+}
+
+@keyframes fadeInLog {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes breathe {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+.breathing {
+  animation: breathe 2.4s ease-in-out infinite;
+}
