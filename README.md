@@ -148,7 +148,7 @@ npm run server
 npm run dashboard
 ```
 
-打开 http://localhost:5173，输入一个创意种子，开始你的创作。
+打开 ，输入一个创意种子，开始你的创作。
 
 也可以直接通过命令行使用：
 
