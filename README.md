@@ -110,15 +110,15 @@
 ### 1. 克隆与安装
 
 ```bash
-git clone <repo-url>
+# 1. 克隆仓库并进入项目根目录
+git clone https://github.com/happy-zink/vibe-creator-engine.git
 cd vibe-creator-engine
 
-# 安装后端依赖
+# 2. 安装后端依赖
 npm install
 
-# 安装前端依赖
+# 3. 进入前端目录安装依赖，然后再退回根目录
 cd dashboard && npm install && cd ..
-```
 
 ### 2. 配置 API Key
 
